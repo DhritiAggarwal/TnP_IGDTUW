@@ -3,4 +3,27 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Established by Govt. of Delhi vide Act 9 of 2012 (formerly IGIT) - The institute is growing from strength to strength."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+    <ImageView
+        android:layout_width="326dp"
+        android:layout_height="178dp"
+        android:layout_margin="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/why_recruit" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="2"
+        android:text="IGDTUW is South Asia's first women's technical University which works with the mission to foster an environment for attaining excellence in professional education. Even though it is still quite young, it has been critically acclaimed with its alumni holding positions in prestigious companies in the last 10 years. It is ranked at 2nd position among Top 10 Emerging Engineering Institutes of India. These achievements have been possible because of its great faculty and bright students. "
+        android:textColor="#212121" />
+
 </LinearLayout>
