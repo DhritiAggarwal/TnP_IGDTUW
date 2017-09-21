@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/igdtuw_clg"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="20dp"
+        android:textColor="#212121"
+        android:text="The Training and Placement Cell facilitates the campus placement program at IGDTUW. The cell comprises of highly energetic and dynamic team of students and faculty members with Dr. A K Mohapatra as Training n Placement Officer.
+The University TnP Cell facilitates multiple job offers to the eligible students of IGDTUW year after year. During the recruitment drive around 52 companies visited the campus. To name a few prestigious companies like Microsoft, Adobe, Cisco, SAP Labs, Oracle, Qualcomm, Mahindra n Mahindra, General Motors, Cognizant, Aricent,IBM India visit IGDTUW campus for placements and internships."/>
+
+</LinearLayout>
