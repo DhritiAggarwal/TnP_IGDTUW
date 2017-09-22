@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView011"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="30dp">
+        <!--Put form controls here-->
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="Recruiter"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="10pt">
+        </TextView>
+        <EditText
+            android:id="@+id/EditTextname"
+            android:layout_height="wrap_content"
+            android:hint="Name of Company"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent">
+        </EditText>
+        <EditText
+            android:id="@+id/namerec"
+            android:layout_height="wrap_content"
+            android:hint="Name of Recruiter"
+            android:inputType="textPersonName"
+            android:layout_width="297dp">
+        </EditText>
+        <EditText
+            android:id="@+id/EditTextEmail"
+            android:layout_height="wrap_content"
+            android:hint="Email Id"
+            android:inputType="textEmailAddress"
+            android:layout_width="fill_parent">
+        </EditText>
+        <EditText
+            android:id="@+id/EditTextphone"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number"
+            android:inputType="phone"
+            android:layout_width="fill_parent">
+        </EditText>
+        <Button
+            android:id="@+id/button_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:text="SUBMIT" />
+    </LinearLayout>
+</ScrollView>
