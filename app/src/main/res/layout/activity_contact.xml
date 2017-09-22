@@ -1,6 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT US"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/map"
+        android:layout_weight="1">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="wrap_content"
+android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/phones"
+            android:layout_weight="0.05">
+
+        </>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="011- 23900261,
+         23900264 "
+            android:textSize="15dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="25dp"
+            />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+         <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/ema">
+         </>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="tpo@igdtuw.ac.in
+tnp.igit@gmail.com"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/locatoion">
+
+        </>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="15dp"
+
+           android:text="
+       KASHMERE GATE
+       New Delhi 110006
+       India "
+           />
+   </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
 
 </LinearLayout>
